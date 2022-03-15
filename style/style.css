@@ -85,6 +85,7 @@ nav li a:hover{
 
 .stats{
     margin-left: 150px;
+    padding: 30px 0px;
 }
 .stats .mid{
     display: inline-block;
@@ -97,13 +98,24 @@ nav li a:hover{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Fredoka', sans-serif;
     border-radius: 10px;
+    padding-top: 20px;
 
 }
 .stats .mid h2{
-   color:rgb(255,141,19);
+    background: #FFB76B;
+    background: -webkit-linear-gradient(to right, #FFB76B 17%, #FFA73D 40%, #FF7C00 67%, #FF7F04 100%);
+    background: -moz-linear-gradient(to right, #FFB76B 17%, #FFA73D 40%, #FF7C00 67%, #FF7F04 100%);
+    background: linear-gradient(to right, #FFB76B 17%, #FFA73D 40%, #FF7C00 67%, #FF7F04 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25pt;
+    font-weight: 700;
+    margin: 0px;
 }
 .stats .mid p{
     display: inline-block;
+    font-size: 14pt;
+    color: #196247;
 }
 .section{
     background-image: url("../images/dogem.png"),url("../images/backm.png");
