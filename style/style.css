@@ -172,6 +172,7 @@ nav li a:hover{
     margin-left: 67px;
 }
 .services .text{
+    padding-top: 40px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Fredoka', sans-serif;
     color: #196247;
@@ -223,6 +224,7 @@ nav li a:hover{
 
 }
 .blog{
+    padding-top: 40px;
     margin-top: 40px;
     width: 1200px;
     margin: auto;
