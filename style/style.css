@@ -109,25 +109,27 @@ nav li a:hover{
     background-image: url("../images/dogem.png"),url("../images/backm.png");
     background-repeat: no-repeat;
     height: 600px;
-    /* border: 1px solid red; */
     background-position-y: 150px,0;
     background-size: 500px,1200px;
-    padding: 30px;
     
+}
+.section .content{
+    width: 700px;
+    margin-left:60%;
+    /* border: 1px solid red; */
 }
 .section p{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Fredoka', sans-serif;
     color: #196247;
+
 }
 .section h4{
-    margin-left: 850px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Fredoka', sans-serif;
 
 }
 .section h2{
-    margin-left: 850px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Fredoka', sans-serif;
     color:#196247;
@@ -136,17 +138,16 @@ nav li a:hover{
     margin-top: 0px;
 }
 .section .top{
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .section .box{
-    margin-left: 850px;
     /* border: 1px solid red; */
     width: 500px;
     font-size: 14pt;
     margin-bottom: 90px;
 }
 .section button{
-    margin-left: 850px;
+
     background: linear-gradient(90deg, rgba(255,141,19,1) 0%, rgba(255,220,17,1) 100%);
     border: 0px;
     cursor: pointer;
@@ -162,7 +163,12 @@ nav li a:hover{
 }
 .services{
     margin-top: 40px;
-    margin-left: 250px;
+    width: 1200px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.services .one{
+    margin-left: 67px;
 }
 .services .text{
     font-family: 'Open Sans', sans-serif;
@@ -217,7 +223,9 @@ nav li a:hover{
 }
 .blog{
     margin-top: 40px;
-    margin-left: 250px;
+    width: 1200px;
+    margin: auto;
+    /* border: 1px solid red; */
 }
 .blog .text{
     font-family: 'Open Sans', sans-serif;
@@ -233,7 +241,7 @@ nav li a:hover{
 .blog .bot{
     margin-bottom: 40px;
 }
-.blog .con{
+.blog .con, .one{
     display: inline-block;
     width: 340px;
     height: 550px;
@@ -245,15 +253,25 @@ nav li a:hover{
     color: #196247;
     margin-right:20px;
 }
+.blog .one{
+    margin-left: 67px;
+}
 .blog .con h3,p{
     padding: 0px 20px;
 }
+.blog .one h3,p{
+    padding: 0px 20px;    
+}
+
 .blog img{
     width: 340px;
     height: 300px;
     
 }
 .blog .con h3{
+    font-size: 18pt;
+}
+.blog .one h3{
     font-size: 18pt;
 }
 .blog .lt{
@@ -272,9 +290,7 @@ nav li a:hover{
     padding: 100px 0px;
     padding-right: 20px;
 }
-.logos .left{
 
-}
 footer {
     text-align: center;
     height: 500px;
