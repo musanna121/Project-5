@@ -263,32 +263,39 @@ nav li a:hover{
     font-weight: 600;
     color: #196247;
 }
+.logos{
+    text-align: center;
+}
 .logos img {
     width: 200px;
-    padding: 100px 30px;
+    display: inline-block;
+    padding: 100px 0px;
+    padding-right: 20px;
 }
 .logos .left{
-    margin-left:120px;
+
 }
 footer {
+    text-align: center;
     height: 500px;
     background-color: rgb(29, 29, 94);
 }
-footer img{
-    margin-top: 200px;
-    margin-left: 680px;
+footer .foot img{
+    display: inline-block;
+    text-align: center;
     width: 200px;
+    padding-top: 150px;
 }
 footer ul{
-    display: inline-block;
+    text-align: center;
     vertical-align: top;
-    margin-left: 500px;
+    /* margin-left: 500px; */
 
 }
 footer li{
     display: inline-block;
     list-style-type: none;
-    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 10px;
 
 }
