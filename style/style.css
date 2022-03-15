@@ -1,5 +1,5 @@
 .banner{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     height: 800px;
     background-image: url("../images/DOGE.png"), url(../images/back.png);
@@ -34,7 +34,7 @@ nav li a{
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bolder;
-    color: #092E20;
+    color: #196247;
 }
 nav li a:hover{
     color: orange;
@@ -44,7 +44,7 @@ nav li a:hover{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Fredoka', sans-serif;
     padding: 60px 0px;
-    color: #092E20;
+    color: #196247;
     margin-left: 150px;
 }
 .about h1{
@@ -59,17 +59,22 @@ nav li a:hover{
     padding-right: 15px;
 
 }
+
 .about .twitter{
     padding-bottom: 10px;
 }
 .about button{
     display: block;
     margin-top: 100px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     background: linear-gradient(90deg, rgba(255,141,19,1) 0%, rgba(255,220,17,1) 100%);
     border: 0px;
     cursor: pointer;
     padding : 15px 20px;
+    transition-delay: 0ms;
+}
+.about button:hover{
+    background: red;
 }
 .about button a{
     font-size: 14pt;
@@ -104,23 +109,31 @@ nav li a:hover{
     background-image: url("../images/dogem.png"),url("../images/backm.png");
     background-repeat: no-repeat;
     height: 600px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-position-y: 150px,0;
     background-size: 500px,1200px;
+    padding: 30px;
     
 }
 .section p{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Fredoka', sans-serif;
-    color: #092E20;
+    color: #196247;
+}
+.section h4{
+    margin-left: 850px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+
 }
 .section h2{
     margin-left: 850px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Fredoka', sans-serif;
-    color: #092E20;
+    color:#196247;
     font-size: 45pt;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 .section .top{
     margin-top: 100px;
@@ -130,6 +143,7 @@ nav li a:hover{
     /* border: 1px solid red; */
     width: 500px;
     font-size: 14pt;
+    margin-bottom: 90px;
 }
 .section button{
     margin-left: 850px;
@@ -139,4 +153,161 @@ nav li a:hover{
     padding : 15px 20px;
     color: white;
     font-size: 14pt;
+    margin-bottom: 40px;
+    transition-delay:none;
+}
+.section .button:hover{
+    background: red;
+    color:white;
+}
+.services{
+    margin-top: 40px;
+    margin-left: 250px;
+}
+.services .text{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    color: #196247;
+    font-size: 14pt;
+
+}
+.services h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* font-size: 45pt; */
+}
+.services .top,.bot{
+    font-size: 45pt;
+
+}
+.services .bot{
+    margin-bottom: 40px;
+}
+.services .one,.two,.three{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(215, 237, 250);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    color: #196247;
+    margin-right: 20px;
+}
+.services .one img{
+    width: 300px;
+
+}
+.services .two img{
+    width: 182px;
+}
+.services .three img{
+    width: 357px;
+}
+.services .size{
+    font-size: 18pt;
+}
+.services .learn{
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 600;
+    color: #196247;
+
+}
+.blog{
+    margin-top: 40px;
+    margin-left: 250px;
+}
+.blog .text{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    color: #196247;
+    font-size: 14pt;
+}
+.blog .top,.bot{
+    font-size: 45pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.blog .bot{
+    margin-bottom: 40px;
+}
+.blog .con{
+    display: inline-block;
+    width: 340px;
+    height: 550px;
+    background-color: rgb(252, 227, 173);
+    text-align: left;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    color: #196247;
+    margin-right:20px;
+}
+.blog .con h3,p{
+    padding: 0px 20px;
+}
+.blog img{
+    width: 340px;
+    height: 300px;
+    
+}
+.blog .con h3{
+    font-size: 18pt;
+}
+.blog .lt{
+    text-decoration: none;
+    font-size: 14pt;
+    padding: 20px;
+    font-weight: 600;
+    color: #196247;
+}
+.logos img {
+    width: 200px;
+    padding: 100px 30px;
+}
+.logos .left{
+    margin-left:120px;
+}
+footer {
+    height: 500px;
+    background-color: rgb(29, 29, 94);
+}
+footer img{
+    margin-top: 200px;
+    margin-left: 680px;
+    width: 200px;
+}
+footer ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 500px;
+
+}
+footer li{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 50px;
+    padding-top: 10px;
+
+}
+footer li a{
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+}
+footer li a:hover{
+    color: orange;
+    
+}
+footer p{
+    text-align: center;
+    color: orange;
+}
+footer p span{
+    color:white;
 }
